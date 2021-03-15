@@ -45,6 +45,7 @@ def rebond():
         balle[2] = -balle[2]    
 
 def changercouleur():
+    """Fait changer la balle de la couleur de la zone dans laquelle elle se trouve"""
     global balle, rayon
     x0, y0, x1, y1 = canvas.coords(balle[0])
     if y1 <= 50:
