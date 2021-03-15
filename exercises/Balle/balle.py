@@ -50,13 +50,13 @@ def changercouleur():
     x0, y0, x1, y1 = canvas.coords(balle[0])
     if y1 <= 50:
         if 0 <= x0 < (150 - rayon):
-            canvas.itemconfig(balle[0], fill="red" )
+            canvas.itemconfig(balle[0], fill="red")
         elif 150 <= x0 < (300 - rayon):
-            canvas.itemconfig(balle[0], fill="green" )
+            canvas.itemconfig(balle[0], fill="green")
         elif 300 <= x0 < (450 - rayon):
-            canvas.itemconfig(balle[0], fill="blue" )
+            canvas.itemconfig(balle[0], fill="blue")
         elif 450 <= x0 <= (600 - rayon):
-            canvas.itemconfig(balle[0], fill="yellow" )
+            canvas.itemconfig(balle[0], fill="yellow")
 
         
 
